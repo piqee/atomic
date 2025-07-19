@@ -8,6 +8,7 @@ modules:
         - foot
         - swaylock
         - swayidle
+        - fuzzel
 
     - type: files
       files:
