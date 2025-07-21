@@ -1,10 +1,10 @@
 modules:
-  rpm-ostree:
+  type: dnf5
+  repos:
+    cleanup: true
+    copr:
+      - atim/starship
   install:
-    - river
-
-  files:
-    - source: system/river/etc
-      destination: etc
-    - source: system/river/usr
-      destination: usr
+    - starship
+    - btop
+    - fastfetch
