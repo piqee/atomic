@@ -1,10 +1,10 @@
 modules:
-  type: dnf5
-  repos:
-    cleanup: true
-    copr:
-      - atim/starship
-  install:
-    - starship
-    - btop
-    - fastfetch
+  - type: dnf5
+    repos:
+      cleanup: true
+      copr:
+        - atim/starship
+    install:
+      - starship
+      - btop
+      - fastfetch

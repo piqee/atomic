@@ -1,9 +1,9 @@
 modules:
-  type: rpm-ostree
-  install:
-    - sddm
-
-  type: systemd
-  system:
-    enabled:
+  - type: rpm-ostree
+    install:
       - sddm
+
+  - type: systemd
+    system:
+      enabled:
+        - sddm
