@@ -1,7 +1,7 @@
 modules:
-  - type: dnf5
+  - type: dnf
+    cleanup: true
     repos:
-      cleanup: true
       copr:
         - atim/starship
     install:
